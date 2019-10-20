@@ -36,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
                 checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]
-                    {android.Manifest.permission.CAMERA}, 1000);
+                    {android.Manifest.permission.CAMERA}, 0);
         } else {
             if (getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.
                     FEATURE_CAMERA_FLASH)) {
