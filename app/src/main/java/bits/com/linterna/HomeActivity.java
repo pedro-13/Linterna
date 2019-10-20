@@ -16,14 +16,14 @@ public class HomeActivity extends AppCompatActivity {
     boolean isFlash = false;
     boolean isOn = true;
     //TODO Metodo para que de detenga la app
-    @Override
+    /*@Override
     protected void onStop() {
         super.onStop();
         if (camera != null) {
             camera.release();
             camera = null;
         }
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,5 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 }
