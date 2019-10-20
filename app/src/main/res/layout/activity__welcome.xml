@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlack"
-    tools:context=".HomeActivity">
-
-    <ImageView
-        android:id="@+id/img-bombila"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/foco0f1"/>
-
+    tools:context=".Activity_Welcome">
 
 </android.support.constraint.ConstraintLayout>

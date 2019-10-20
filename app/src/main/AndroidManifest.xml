@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".HomeActivity">
+        </activity>
+
+        <activity android:name=".Activity_Welcome" android:theme="@style/Splashtheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
